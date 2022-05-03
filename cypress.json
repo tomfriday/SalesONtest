@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://demo1.saleson.pl/login",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "watchForFileChanges": false
+}

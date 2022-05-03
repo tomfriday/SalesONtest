@@ -1,0 +1,5 @@
+{
+"testSurnameArray": ["Piątek","Sobota", "Niedziela", "Poniedziałek", "Kowalski", "Jurkowski", "Nowak", "Kętowski", "Janota","Mąkowski"],
+"testNameArray": ["Janusz","Andrzej","Łukasz", "Jarosław","Damian","Mariusz","Krystian","Piotr","Jeremiasz","Maciej"],
+"testPositionArray": ["Sprzedawca","Menadżer","Menadżer Regionu", "Sales leader", "Wsparcie"]
+}
