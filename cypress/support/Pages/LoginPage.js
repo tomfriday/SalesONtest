@@ -5,7 +5,6 @@ class LoginPage {
         cy.get('#username').type(login)
         cy.get('#password').type(password)
         cy.get('.green-button-login').click()
-        
     }
 }
 export default LoginPage

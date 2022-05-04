@@ -4,7 +4,6 @@ import LoginPage from '../../support/Pages/LoginPage.js'
 import DashboardPage from '../../support/Pages/DashboardPage.js'
 import MyProfileSettings from '../../support/Pages/MyProfileSettings.js'
 
-
 beforeEach(() => {
     Cypress.Cookies.preserveOnce('SFSESSID2')
 })
@@ -72,17 +71,14 @@ describe('Edit my profile', () => {
         cy.url().should('eq','https://demo1.saleson.pl/dashboard/')
         dashboardPage.clickOnProfileOptions()
         dashboardPage.chooseProfileOption('Mój profil')
-        myProfileSettings.changePassword(credentials.testPassword)           // ClearFunction -> get back to fixture login 
+        myProfileSettings.changePassword(credentials.testPassword)           // ClearFunction -> get back to fixture Password
         myProfileSettings.save()
-        
     })
     it('Upload Photo' , () => {
         cy.fixture('testProfileDatas')
         const myProfileSettings = new MyProfileSettings()
         myProfileSettings.uploadPhoto('cypress/fixtures/testPhoto.jpg')
         myProfileSettings.save()
-       
-        
     })
   })
 

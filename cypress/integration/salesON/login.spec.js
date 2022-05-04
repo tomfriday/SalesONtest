@@ -9,7 +9,6 @@ describe('Login to system', () => {
             cy.url().should('eq','https://demo1.saleson.pl/dashboard/')
     })
   
-
   it('Fail login to system using wrong credentials', () => {
         cy.fixture('credentials')
             const loginPage = new LoginPage()
