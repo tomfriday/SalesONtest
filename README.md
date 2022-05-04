@@ -1,7 +1,7 @@
 # SalesONtest
 test automatics for SalesON
 
-npm cypress install
+npm install cypress
 
 npx cypress open -> for open dashboard
 
